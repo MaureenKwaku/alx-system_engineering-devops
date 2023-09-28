@@ -1,4 +1,5 @@
 #!/bin/bash
 0	string School thisisaschoolfile
-!:mime text/plain
+!:mime text/school
 file -C -m school.mgc
+file --mime-type -m school.mgc
