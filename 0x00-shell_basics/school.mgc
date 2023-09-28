@@ -2,4 +2,4 @@
 cat << EOF > school.mgc
 !:mime=application/x-school:string:SCHOOL:offset=0
 EOF
-file -m school.mgc -r
+~file -m school.mgc -r
